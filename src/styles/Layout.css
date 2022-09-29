@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&display=swap');
+
+.layout {
+    color: black;
+    position: relative;
+    bottom: 50px;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+
+}
+
+.dropdown select {
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    padding: 0px 12px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+
+.cards {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin: 10px;
+}
